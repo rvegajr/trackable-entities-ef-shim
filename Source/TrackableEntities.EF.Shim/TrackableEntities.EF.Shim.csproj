@@ -1,15 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
-    <Nullable>enable</Nullable>
+    <TargetFrameworks>net48;net5.0;net6.0;netstandard2.1</TargetFrameworks>
+    
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>Provides an ApplyChanges extension method for DbContext that sets EntityState on trackable entities, so they can be saved by a service in a single transaction</Description>
     <PackageProjectUrl>https://github.com/TrackableEntities/trackable-entities</PackageProjectUrl>
-	<Version>2.1.0.0</Version>
-    <AssemblyVersion>2.1.0.0</AssemblyVersion>
-    <FileVersion>2.1.0.0</FileVersion>
-    <InformationalVersion>2.1.0.0</InformationalVersion>
+	<Version>2.1.1.0</Version>
+    <AssemblyVersion>2.1.1.0</AssemblyVersion>
+    <FileVersion>2.1.1.0</FileVersion>
+    <InformationalVersion>2.1.1.0</InformationalVersion>
     <PackageReadmeFile>ReadMe.md</PackageReadmeFile>
     <PackageIcon>tracking-logo.png</PackageIcon>
     <RepositoryUrl>https://github.com/rvegajr/trackable-entities-ef-shim</RepositoryUrl>
